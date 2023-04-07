@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    margin: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+a {
+    font-size: 20px;
+}
+
+#container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    grid-template-rows: 100px 100px 5fr 1fr;
+    gap: 5px;
+}
+
+header {
+    grid-column: 1 / span 3;
+    justify-self: center;
+}
+
+nav {
+    grid-column: 1 / span 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hotpink;
+}
+
+main {
+    grid-column: 1 / span 2;
+}
+
+main h2 {
+    text-align: center;
+}
+
+aside {
+    background-color: hotpink;
+}
+
+aside h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+aside li {
+    margin-top: 35px;
+}
+
+footer {
+    margin-top: auto;
+}
